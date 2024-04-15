@@ -18,6 +18,13 @@ proxies:
   - {name: 阿辉-us-直连, server: 107.148.19.174, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 62a6e74d-4a22-4d8c-b4e3-f5bf92b32e0c, tfo: false, udp: true}
   - {name: 阿辉-us-中转, server: 02cm.gangbi.vip, port: 19994, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 62a6e74d-4a22-4d8c-b4e3-f5bf92b32e0c, tfo: false, udp: true}
   - {name: ak-hk-中转, server: 02cm.gangbi.vip, port: 48946, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ok7VxF6QYA, tfo: false, udp: true}
+  - name: ak-hk-hy2
+    type: hysteria2
+    server: 102.129.195.43
+    port: 28744
+    password: alsc1n
+    sni: www.bing.com
+    skip-cert-verify: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
