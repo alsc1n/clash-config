@@ -21,7 +21,9 @@ proxies:
   - name: ak-hk-hy2
     type: hysteria2
     server: 102.129.195.43
-    port: 28744
+    port: 10000
+    ports: 10001-20000
+    mport: 10001-20000
     password: alsc1n
     sni: www.bing.com
     skip-cert-verify: true
