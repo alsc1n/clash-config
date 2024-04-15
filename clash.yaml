@@ -29,7 +29,7 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - 阿辉-us-中转
+      - 阿辉-us-直连
       - 阿辉-us-中转
       - ak-hk-中转
       - ak-hk-hy2
