@@ -36,6 +36,7 @@ proxy-groups:
       - 阿辉-us-直连
       - 阿辉-us-中转
       - ak-hk-中转
+      - ak-hk-hy2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -44,6 +45,7 @@ proxy-groups:
       - 阿辉-us-直连
       - 阿辉-us-中转
       - ak-hk-中转
+      - ak-hk-hy2
   - name: 🎥 NETFLIX
     type: select
     proxies:
